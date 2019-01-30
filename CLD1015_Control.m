@@ -4,6 +4,7 @@
 % R. Sheehan 28 - 1 - 2019
 
  addpath(genpath('c:/Users/Robert/Programming/MATLAB/Common/'))
+ addpath(genpath('c:/Users/Robert/Programming/MATLAB/Thorlabs_PM100D/'))
 
 %   Specify resource name and vendor of driver
 cld_addr = 'USB0::0x1313::0x804F::M00459138::INSTR';
