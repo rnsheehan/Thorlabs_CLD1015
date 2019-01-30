@@ -9,7 +9,9 @@ v = str2double (query (visObj, ':OUTP1:PROT:KEYL:TRIP?'));
 if loud == 1
     disp(['Keylock Status: ', num2str(v)]);
     if v == 1
+        disp('WARNING\nWARNING\nWARNING')
         disp('Keylock is closed.')
+        disp('Open keylock before attempting to proceed.')
     else
         disp('Keylock is open.')
     end

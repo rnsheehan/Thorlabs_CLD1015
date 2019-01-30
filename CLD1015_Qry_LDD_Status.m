@@ -3,3 +3,5 @@ function v = CLD1015_Qry_LDD_Status(visObj)
 % Is it on / off
 
 v = str2double (query (visObj, ':OUTP1:STAT?'));
+
+end
